@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(#fc5e55, #fa4083);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 1.125rem;
+}
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url(/images/image-background-card1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card2 {
+  background-image: url(/images/image-background-card2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card3 {
+  background-image: url(/images/image-background-card3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.herobox1 {
+  /* background-color: wheat; */
+  flex: 2;
+  padding-right: 2rem;
+}
+
+.herobox2 {
+  /* background-color: snow; */
+  flex: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 1rem;
+}
+
+p {
+  line-height: 1.75rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+}
+
+.cards p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 1 0px 30px 20px 30px;
+}
